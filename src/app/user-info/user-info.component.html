@@ -1,0 +1,10 @@
+<div *ngIf="user">
+    <img src="{{user.picture.large}}" alt="">
+    <p>First Name: {{user.name.first}}</p>
+    <p>Last Name: {{user.name.last | dolar : 'EURO'}}</p>
+</div>
+
+
+
+
+

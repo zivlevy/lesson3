@@ -1,0 +1,5 @@
+<div id="wrapper">
+    <p *ngFor="let user of users" (click)="userClicked(user)">{{user.name.first | uppercase}} {{user.name.last}}</p>
+</div>
+
+
