@@ -2,3 +2,16 @@
 overflow-y: scroll;
     height: 300px;
 }
+
+.round-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px auto;
+}
+
+.panel{
+    /*background-color: red;*/
+    min-height: 250px;
+    width:25%;
+}

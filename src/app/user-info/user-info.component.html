@@ -1,7 +1,9 @@
-<div *ngIf="user">
-    <img src="{{user.picture.large}}" alt="">
-    <p>First Name: {{user.name.first}}</p>
-    <p>Last Name: {{user.name.last | dolar : 'EURO'}}</p>
+<div *ngIf="user" class="">
+    <img class="round-img" [src]="user.picture.large" alt="Card image cap">
+    <h2 class="text-info">{{user.name.first}} {{user.name.last}}</h2>
+    <h4><i class="fa fa-venus-mars" aria-hidden="true"></i>  {{user.gender}}</h4>
+    <h4><i class="fa fa-envelope" aria-hidden="true"></i>  {{user.email}}</h4>
+    <h4><i class="fa fa-phone-square" aria-hidden="true"></i>  {{user.phone}}</h4>
 </div>
 
 

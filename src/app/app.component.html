@@ -1,3 +1,25 @@
-<app-user-list (userSelected)="userChosen($event)"></app-user-list>
+<div class="container">
 
-<app-user-info [user]="currentUser"></app-user-info>
+
+    <div class="jumbotron">
+        <h1 class="text-center">Elbit Web Dev - Angular 4</h1>
+        <h4 class="text-center text-primary">Learn - Understand - Enjoy</h4>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <h2 class="">Users</h2>
+                <app-user-list (userSelected)="userChosen($event)"></app-user-list>
+        </div>
+        <div class="col-8">
+            <h2 class="">User info</h2>
+            <app-user-info [user]="currentUser"></app-user-info>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
+
+
+
+
